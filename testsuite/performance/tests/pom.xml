@@ -54,7 +54,7 @@
         <scala-maven-plugin.version>3.2.2</scala-maven-plugin.version>
         <jboss-logging.version>3.3.0.Final</jboss-logging.version>
         
-        <jackson.version>2.9.6</jackson.version>
+        <jackson.version>2.10.0.pr1</jackson.version>
         <jackson.databind.version>${jackson.version}</jackson.databind.version>
         <jackson.annotations.version>${jackson.databind.version}</jackson.annotations.version>
 
@@ -404,7 +404,7 @@
                                 </goals>
                                 <configuration>
                                     <target>
-                                        <ant antfile="prepare-provisioning.xml" target="prepare-${provisioner}" />
+                                        <ant antfile="prepare-provisioning.xml" target="prepare-${provisioner}"/>
                                     </target>
                                 </configuration>
                             </execution>
