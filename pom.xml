@@ -57,9 +57,9 @@
         <apache.mime4j.version>0.6</apache.mime4j.version>
         <jboss.dmr.version>1.5.0.Final</jboss.dmr.version>
         <bouncycastle.version>1.60</bouncycastle.version>
-        <cxf.version>3.3.2</cxf.version>
-        <cxf.jetty.version>3.3.2</cxf.jetty.version>
-        <cxf.jaxrs.version>3.3.2</cxf.jaxrs.version>
+        <cxf.version>3.3.4</cxf.version>
+        <cxf.jetty.version>3.3.4</cxf.jetty.version>
+        <cxf.jaxrs.version>3.3.4</cxf.jaxrs.version>
         <cxf.undertow.version>3.3.2</cxf.undertow.version>
         <dom4j.version>2.1.1</dom4j.version>
         <github.relaxng.version>2.3.1</github.relaxng.version>
