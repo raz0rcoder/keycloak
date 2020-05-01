@@ -5,7 +5,9 @@
   "scripts": {
     "build": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./ && npm run lint",
     "build:watch": "tsc --noImplicitAny --strictNullChecks --jsx react -p ./ -w",
-    "lint": "eslint --ignore-pattern *.d.ts ./**/*.ts*"
+    "lint": "eslint --ignore-pattern *.d.ts ./**/*.ts*",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Stan Silvert",
@@ -19,7 +21,8 @@
     "react-dom": "^16.8.5",
     "react-router-dom": "^4.3.1",
     "systemjs": "^0.20.17",
-    "systemjs-plugin-babel": "0.0.25"
+    "systemjs-plugin-babel": "0.0.25",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/react": "^16.8.8",
@@ -37,5 +40,6 @@
     "eslint-plugin-react": "^7.12.4",
     "typescript": "^3.3.3333"
   },
-  "repository": {}
+  "repository": {},
+  "snyk": true
 }
